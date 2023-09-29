@@ -1,17 +1,19 @@
-import { MainContainer } from "./styles";
+import { ButtonCard, MainContainer } from "./styles";
 import { Button } from "../../components/Button";
 import { Footer } from '../../components/Footer';
 import { IconText } from '../../components/IconText';
 
-import ProdutoImg from '../../assets/images/Produto.png';
+import ProdutoImg from '../../assets/images/Produto.svg';
 import Remedio from '../../assets/icons/Remedio.svg'
 import Acess from '../../assets/icons/Acess.svg'
 import Relogio from '../../assets/icons/Relogio.svg'
+import Arduino from '../../assets/images/uno_r3 1 (1) 1.svg'
+import Cabos from '../../assets/images/Cabos.svg'
 
 export function Produto() {
   return (
     <MainContainer>
-      <section className="First-Content">
+      <section className="First-Content Desktop">
         <img src={ProdutoImg} className='Product' />
 
         <div className="Text">
@@ -49,6 +51,38 @@ export function Produto() {
       </section>
 
       <section className='Second-Content'>
+
+        <div>
+          <span class="material-symbols-outlined Arrow">
+            arrow_back_ios
+          </span>
+        </div>
+
+        <div className='Card'>   {/* Transformar Card em um componente */}
+          <img src={Arduino} />
+          <p>Arduino Uno</p>
+          <span>R$ 70,00</span>
+
+          <ButtonCard title="Aonde Comprar" > Aonde Comprar </ButtonCard>
+        </div>
+
+        <div>
+          <span class="material-symbols-outlined Arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+
+      </section>
+
+      <section className='Third-Content Desktop Inverse'>
+        <img className="Cabos" src={Cabos} />
+
+        <div className="Card-Group">
+          <div className='Porcentagem'></div>
+          <div className='Porcentagem'></div>
+          <div className='Porcentagem'></div>
+        </div>
+
       </section>
 
       <Footer />

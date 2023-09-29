@@ -1,19 +1,16 @@
-import Linkedin from '../../assets/icons/Link.svg'
-import Youtube from '../../assets/icons/You.svg'
-import Twitter from '../../assets/icons/Twitter.svg'
-import Instagram from '../../assets/icons/Insta.svg'
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FooterStyle } from "./styles";
+import { faInstagram, faLinkedinIn, faXTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export function Footer() {
   return (
     <FooterStyle>
 
       <div className='Icons'>
-        <a href=""><img src={Linkedin} alt="" /></a>
-        <a href=""><img src={Youtube} alt="" /></a>
-        <a href=""><img src={Twitter} alt="" /></a>
-        <a href=""><img src={Instagram} alt="" /></a>
+        <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a>
+        <a href=""><FontAwesomeIcon icon={faYoutube} /></a>
+        <a href=""><FontAwesomeIcon icon={faXTwitter} /></a>
+        <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
 
       <div className='Line'></div>

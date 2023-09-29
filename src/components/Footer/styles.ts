@@ -13,6 +13,11 @@ export const FooterStyle = styled.footer`
     align-items: center;
     justify-content: center;
     gap: 2.625rem;
+
+    a{
+      font-size: 25px;
+      color:  #176CCB;
+    }
   }
 
   .Line {
@@ -33,6 +38,19 @@ export const FooterStyle = styled.footer`
     color: #BCBCBC;
     gap: 10px;
     margin-bottom: 2.625rem;
+  }
+
+  @media (min-width: 1200px) { 
+    .Icons a {
+        color: #5D9CE3;
+    }
+    
+    .Icons a:hover {
+        color: #176CCB;
+        transition: all 0.2s ease;
+    }
+      
+    
   }
 
   `

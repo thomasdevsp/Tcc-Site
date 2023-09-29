@@ -1,5 +1,5 @@
-import Produto from '../../assets/images/Produto.png'
-import Idosos from '../../assets/images/Velhos.png'
+import Produto from '../../assets/images/Produto.svg'
+import Idosos from '../../assets/images/Teste.svg'
 import { Button } from '../../components/Button'
 import { MainContainer } from './styles'
 import { Footer } from '../../components/Footer'
@@ -7,7 +7,7 @@ import { Footer } from '../../components/Footer'
 export function Home() {
   return (
     <MainContainer>
-      <section className="First-Content">
+      <section className="First-Content Desktop">
         <img src={Produto} className='Product' />
 
         <div className="Text">
@@ -27,7 +27,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className='Second-Content'>
+      <section className='Second-Content Desktop Inverse'>
         <img src={Idosos} className='Idosos' />
 
         <div className="Text">
