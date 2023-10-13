@@ -8,6 +8,11 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
   }
 
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
 
 `

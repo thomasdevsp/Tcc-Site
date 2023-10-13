@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 
 export const NavBar = styled.div`
+  max-width: 1400px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
 
   .Reorder {
-    margin-right: 22px;
     width: 28px;
     height: 14px;
   }
@@ -16,5 +18,11 @@ export const NavBar = styled.div`
     height: 65px;
   }
 
+
+  @media (min-width: 768px) {
+    .NavBar {
+      max-width: 200px;
+    }
+  }
 
 `

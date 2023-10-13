@@ -1,8 +1,7 @@
-import Produto from '../../assets/images/Produto.svg'
-import Idosos from '../../assets/images/Teste.svg'
+import Produto from '../../assets/images/Produto.png'
+import Idosos from '../../assets/images/Velhos.svg'
 import { Button } from '../../components/Button'
 import { MainContainer } from './styles'
-import { Footer } from '../../components/Footer'
 
 export function Home() {
   return (
@@ -47,7 +46,6 @@ export function Home() {
         </div>
       </section>
 
-      <Footer />
     </MainContainer>
   )
 }

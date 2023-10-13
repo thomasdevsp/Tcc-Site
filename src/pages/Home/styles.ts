@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.main`
-  height: 100%;
-  margin: 68px 40px 0;
+  max-width: 1400px;
+  margin-top: 120px;
 
   .Product {
   width: 284px;
@@ -10,9 +10,7 @@ export const MainContainer = styled.main`
   margin-bottom: 40px;
 }
 
-  .Idosos {
-  width: 331px;
-  height: 171px;
+  .Idosos {  
   margin-top: 130px;
   margin-bottom: 40px;
 }
@@ -23,6 +21,10 @@ export const MainContainer = styled.main`
   flex-direction: column;
   gap: 36px;
 }
+
+  .Second-Content {
+    margin-bottom: 20rem;
+  }
 
   h1 {
   font-size: 2.625rem;
@@ -40,8 +42,8 @@ export const MainContainer = styled.main`
   
 }
 
-@media (min-width: 1200px) { 
-    margin: 120px;
+@media (min-width: 770px) { 
+    max-width: 400px;
 
     .First-Content {
       margin-bottom: 200px;

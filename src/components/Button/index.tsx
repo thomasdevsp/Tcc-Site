@@ -2,6 +2,6 @@ import { ButtonComponent } from "./styles";
 
 export function Button(props) {
   return (
-    <ButtonComponent>{props.title}</ButtonComponent>
+    <a href="https://www.youtube.com/watch?v=XoTwhyjZIUs" target="blank"><ButtonComponent>{props.title}</ButtonComponent></a>
   )
 }

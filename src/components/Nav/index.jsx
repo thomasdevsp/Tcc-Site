@@ -1,4 +1,4 @@
-import logo from '../../assets/logo/logo.png';
+import logo from '../../assets/logo/MedBox.png';
 import menu from '../../assets/menu.svg'
 import { NavBar } from './styles'
 

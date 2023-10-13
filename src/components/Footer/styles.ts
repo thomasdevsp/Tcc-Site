@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FooterStyle = styled.footer`
-  margin-top: 9rem;
+  margin-top: 47rem;
   width: 100%;
   display: flex;
     align-items: center;
