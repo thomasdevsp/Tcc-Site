@@ -1,100 +1,87 @@
 import styled from 'styled-components'
 
 export const MainContainer = styled.main`
-  max-width: 1400px;
+  max-width: 1520px;
+  margin: auto;
   margin-top: 120px;
 
-  .Product {
-  width: 284px;
-  height: 229px;
-  margin-bottom: 40px;
-}
-
-  .Idosos {  
-  margin-top: 130px;
-  margin-bottom: 40px;
-}
-
-  .Text {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 36px;
-}
-
-  .Second-Content {
-    margin-bottom: 20rem;
+  h1 {
+    font-size: 3.625rem;
   }
 
-  h1 {
-  font-size: 2.625rem;
-}
-
   h3 {
-  font-size: 1.375rem;
-  max-width: 340px;
-}
+    font-size: 1.75rem;
+  }
 
   p {
-  font-size: 1rem;
-  max-width: 340px;
+    font-size: 1.5rem;
+  }
 
-  
-}
-
-@media (min-width: 770px) { 
-    max-width: 400px;
-
-    .First-Content {
-      margin-bottom: 200px;
+  .text-container {
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
     }
 
-    .Second-Content {
-      margin-bottom: 300px;
-    }
-
-    .Desktop {
+    .all-sections {
+      max-width: 1520px;
+      width: 100%;  
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
-      align-items: center;
-
-      .Product {
-        margin: 0;
-        width: 700px;
-        height: 550px;
-      }
-
-      h1 {
-        font-size: 4rem;
-        max-width: 40.125rem;
-      }
-
-      h3 {
-        font-size: 1.75rem;
-      }
-
-      p {
-        font-size: 1.5rem;
-        max-width: 31.125rem;
-      }
+      gap: 6rem;
+      margin-bottom: 300px;
+      padding-inline: 40px;
     }
 
-    .Inverse {
+    .row-default {
       flex-direction: row;
+      text-align: right;
+    }
 
-      .Text {
-        align-items: flex-end;
-      }
+  .introduction-section {
 
-      p {
-        text-align: right;
-      }
+    .introduction-section-img {
+      width: 40%;
 
       img {
-        width: 927px;
-        height: 479px;
+        width: 100%;
+        max-width: 612px;
+      } 
+    }
+  }
+
+  .target-audience {
+
+    .target-audience-img {
+
+      img {
+        width: 100%;
+        max-width: 782px;
       }
     }
   }
-`
+
+ 
+
+  @media (max-width: 1100px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+    
+    .mobile {
+      flex-direction: column;
+      text-align: left;
+    }
+  }
+
+ `

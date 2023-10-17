@@ -3,10 +3,11 @@ import styled from 'styled-components'
 export const ContentIcon = styled.div`
   display: flex;
   gap: 10px;
+  max-width: 12rem;
   
   span {
-    max-width: 8.125rem;
-    font-size: 0.625rem;
+
+    font-size: 1rem;
 
   }
   `

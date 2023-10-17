@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const FooterStyle = styled.footer`
-  margin-top: 47rem;
+  margin-top: 20rem;
   width: 100%;
   display: flex;
     align-items: center;
@@ -43,11 +43,13 @@ export const FooterStyle = styled.footer`
   @media (min-width: 1200px) { 
     .Icons a {
         color: #5D9CE3;
+        transition: all 0.2s ease;
     }
     
     .Icons a:hover {
         color: #176CCB;
         transition: all 0.2s ease;
+        scale: 1.1;
     }
       
     
