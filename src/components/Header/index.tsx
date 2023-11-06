@@ -86,9 +86,9 @@ export function Header() {
               Produto
             </Link>
 
-            <a href={`${currentLocation === '/Produto' ? '#components-section' : '/Produto'}`}> Componentes</a>
-            <a href={`${currentLocation === '/Produto' ? '#bibliography-section' : '/Produto'}`}>Bibliografia</a>
-            <a href={`${currentLocation === '/Produto' ? '#operating-section' : '/Produto'}`}>Funcionamento</a>
+            <a href={`${currentLocation === '/Produto' ? '/Produto#components-section' : '/Produto'}`}> Componentes</a>
+            <a href={`${currentLocation === '/Produto' ? '/Produto#bibliography-section' : '/Produto'}`}>Bibliografia</a>
+            <a href={`${currentLocation === '/Produto' ? '/Produto#operating-section' : '/Produto'}`}>Funcionamento</a>
           </nav>
         </div>
 
